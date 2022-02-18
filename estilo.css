@@ -11,7 +11,7 @@ html,body{
 }
 
 nav{
-    background-color: green;
+    background-color:#00b19d;
     height: 3rem;
  
 }
@@ -28,14 +28,14 @@ nav{
 
 }
 #index{
-    background-color:  #a1a1a1;
+    background-color:  #ffffff;
     width: 4rem;
     height: 100%;
 }
 main{
-background-color: rgb(240, 236, 236);
+background-color: #e8ebf0;
 height: 100%;
-flex-grow: 1;
+flex:1;
 }
 #products{
     margin-top: 2rem;
@@ -47,26 +47,67 @@ flex-grow: 1;
 }
 #products article{
     margin: 1rem;
-    width: 4rem;
-    height: 8rem;
-    border:  1px solid red;
+    width: 15rem;
+    height: 18rem;
+    border:  2px solid #00b19d;
+    background-color: white;
+    flex-flow: row;
+    display: flex;
+    color:#00b19d;
+     
 
 }
 
-#shop_car{
-    background-color: #a1a1a1;
+#shop_car{  
+   background-color: #fefefe;
     height: 100%;
-    flex-grow: 0.4;
+    flex:0.4;
 }
 
 #shop_car h3{
-    margin: 0;
+     margin: 0;
+    background-color: #809bb6;
+    width: 55rem;
+    height: 4rem;
+    text-align: center;
+    color: white;
 }
 
 footer{
-    background-color: green;
+    background-color: #f5f5f5;
     position: fixed;
-    bottom: 2rem;
-    height: 3rem;
+    bottom:0.1rem;
+    height: 10rem;
     width: 100%;
+  
 }
+#items{
+    margin-top: 2rem;
+   display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: white;
+   
+
+}
+
+
+#sale_button{
+    background-color:#00b19d;
+    margin-top: 6.5rem;
+    width: 40%;
+    margin: 2rem;
+    height: 3rem;
+    color: white;
+border-radius: 5px;
+ 
+    
+}
+#cancel_sale{
+    background-color:#809bb6;
+    height: 3rem;
+    width: 50%;
+    color: white;
+}
+
