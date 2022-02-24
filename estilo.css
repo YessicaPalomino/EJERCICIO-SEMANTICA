@@ -27,7 +27,7 @@ body {
 
 nav {
   background-color: #00b19d;
-  height: 6vh;
+  height: 4rem;
 }
 
 .container-main {
@@ -71,7 +71,6 @@ main {
       -ms-flex-flow: column;
           flex-flow: column;
   overflow: scroll;
-  border: 1px solid red;
 }
 
 #shop_car {
@@ -111,7 +110,7 @@ footer {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  border: 2px solid red;
+  border: 2px solid  #00b19d;
   height: 3rem;
 }
 
